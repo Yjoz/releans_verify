@@ -1,0 +1,29 @@
+name: releans_verify
+description: by using this plugin you can simply send and verify OTP using the releans API
+version: 1.0.4
+homepage: "https://yjoz.com"
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+  dio: ^4.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  plugin:
+    platforms:
+      android:
+        package: com.lootah.releans.releans_sms
+        pluginClass: ReleansSmsPlugin
+      ios:
+        pluginClass: ReleansSmsPlugin

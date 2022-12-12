@@ -1,0 +1,1 @@
+enum Channel { sms, voice }
