@@ -1,7 +1,7 @@
 name: releans_verify
 description: by using this plugin you can simply send and verify OTP using the releans API
 version: 1.0.4
-homepage: "https://yjoz.com"
+homepage: "https://github.com/Yjoz/releans_verify"
 
 environment:
   sdk: '>=2.18.0 <3.0.0'
