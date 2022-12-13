@@ -1,4 +1,4 @@
-group 'com.lootah.releans.releans_sms'
+group 'com.lootah.releans.releans_verify'
 version '1.0-SNAPSHOT'
 
 buildscript {
