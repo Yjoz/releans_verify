@@ -1,4 +1,4 @@
-#import "ReleansVerify.h"
+#import "ReleansVerifyPlugin.h"
 #if __has_include(<releans_verify/releans_verify-Swift.h>)
 #import <releans_verify/releans_verify-Swift.h>
 #else
@@ -8,7 +8,7 @@
 #import "releans_verify-Swift.h"
 #endif
 
-@implementation ReleansVerify
+@implementation ReleansVerifyPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   [SwiftReleansVerifyPlugin registerWithRegistrar:registrar];
 }

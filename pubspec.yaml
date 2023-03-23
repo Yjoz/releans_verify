@@ -25,4 +25,4 @@ flutter:
         package: com.lootah.releans.releans_verify
         pluginClass: ReleansVerify
       ios:
-        pluginClass: ReleansVerify
+        pluginClass: ReleansVerifyPlugin

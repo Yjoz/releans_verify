@@ -3,15 +3,15 @@
 # Run `pod lib lint releans_verify.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'releans_sms'
+  s.name             = 'releans_verify'
   s.version          = '0.0.1'
-  s.summary          = 'by using this plugin you can simply send and verify OTP using the releans API'
+  s.summary          = 'A new Flutter plugin project.'
   s.description      = <<-DESC
 A new Flutter plugin project.
                        DESC
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Yjoz' => 'shehan@yjoz.com' }
+  s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'

@@ -1,7 +1,7 @@
 import Flutter
 import UIKit
 
-public class SwiftReleansVerify: NSObject, FlutterPlugin {
+public class SwiftReleansVerifyPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "releans_verify", binaryMessenger: registrar.messenger())
     let instance = SwiftReleansVerifyPlugin()
